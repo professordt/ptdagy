@@ -1,5 +1,6 @@
 {
-  "graph_id": "PTDAGY_MASTER_V2.4_WEHO_CORRIDOR_CASCADE",
+  "graph_id": "PTDAGY_MASTER_V2.5_WEHO_CORRIDOR_CASCADE",
+  "repository_reference": "https://github.com/professordt/ptdagy.git",
   "system_operator": "log_dirt",
   "narrative_formula": "Narrative_Output = log_dirt(Fabula)",
   "framework": "PTDAGY (state-changing HTDAG)",
@@ -8,10 +9,10 @@
   "philosophical_framework": {
     "name": "The Dirty Aesthetic (JBW, 1998/2003)",
     "core_principles": [
-      "Large Strokes, Not Small: Focus on macro-structure (110-year pipe, 185-min gap, 0.3-mile slope cascade) over ornamental details.",
-      "Medium's Personality: Accentuate the flaws (mycelial growth, RF signatures, subsurface runoff, 164-sec visual delta) as proof of reality.",
+      "Large Strokes, Not Small: Focus on macro-structure (110-year pipe, 185-min gap, 0.3-mile slope cascade, corporate debt holding) over ornamental details.",
+      "Medium's Personality: Accentuate the flaws (mycelial growth, RF signatures, subsurface runoff, 164-sec visual delta, receivership filings) as proof of reality.",
       "The Electrurge: Recognize the 5-15 Hz sub-bass not as 'anxiety', but as a raw, involuntary physiological urge/response.",
-      "Write from Life: Ground all claims in physical, measurable reality (water behind the Jeep, standing waves, SMB runoff), rejecting recycled institutional narratives."
+      "Write from Life: Ground all claims in physical, measurable reality (water behind the Jeep, standing waves, SMB runoff, municipal court filings), rejecting recycled institutional narratives."
     ]
   },
 
@@ -20,7 +21,7 @@
     "event_date_secondary": "2026-07-23",
     "event_type": "CASCADE_MUNICIPAL_WATER_INFRASTRUCTURE_FAILURE",
     "primary_location": "842 Palm Ave / Sunset Blvd, West Hollywood, CA 90069",
-    "secondary_location": "8200 Santa Monica Blvd / Laurel Ave, West Hollywood, CA 90046",
+    "secondary_location": "8208 Santa Monica Blvd / Laurel Ave, West Hollywood, CA 90046",
     "pipe_specification_primary": "36-inch riveted steel, installed 1916 (110 years old)",
     "pipe_specification_secondary": "6-inch mainline valve leak",
     "total_volume_released": "17,000,000+ gallons",
@@ -112,7 +113,7 @@
         "baseline_frame": "02:11:40 - Clear visibility behind blue Jeep",
         "event_frame": "02:14:20 - Darker grey intrusion (water/moisture) behind blue Jeep",
         "progression_delta_seconds": 164,
-        "spatial_location": "Behind blue Jeep (exact coordinates pending Gemini mapping)"
+        "spatial_location": "Behind blue Jeep"
       },
       "verification_status": "CONFIRMED - Video evidence"
     },
@@ -144,7 +145,7 @@
       "mechanics": "Secondary hydraulic surge propagates down 0.3-mile slope from Sunset/Holloway to Santa Monica Blvd near Laurel Ave. 6-inch main valve leaks mud and water across street and sidewalks.",
       "affected_entities": [
         "Laurel Hardware (8218 Santa Monica Blvd)",
-        "MedMen WeHo Flagship (8200 Santa Monica Blvd)",
+        "Farmacy Collective / MedMen WeHo Flagship (8208 Santa Monica Blvd)",
         "Santa Monica Blvd traffic corridor (Crescent Heights to Laurel)"
       ],
       "verification_status": "CONFIRMED - Public news coverage & municipal field containment"
@@ -200,9 +201,16 @@
       "correlation": "Direct physical evidence of sustained moisture saturation (Digamma Ϝ) preceding T0 rupture."
     },
     "N_smb_laurel_sink": {
-      "node_id": "NODE_8200_SMB_LAUREL",
-      "role": "Secondary Gradient Drainage & Commercial Impact",
+      "node_id": "NODE_8208_SMB_LAUREL",
+      "role": "Secondary Gradient Drainage & Commercial/License Node",
       "execution_result": "SATURATED",
+      "site_address": "8208 Santa Monica Blvd, West Hollywood, CA 90046",
+      "licensee_entity": "Farmacy Collective (dba MedMen WeHo - License CLM-000001)",
+      "corporate_debt_structure": "Gotham Green Partners (GGP) -> Tilray Brands (Convertible Debt) -> Captor Retail Group / OnePlant (2024 Management)",
+      "insolvency_jurisdictions": [
+        "Los Angeles Superior Court (US Operating Receivership)",
+        "Supreme Court of British Columbia (Canadian Bankruptcy Trustee B. Riley Farber)"
+      ],
       "yield": "Hydraulic runoff inundates Laurel Ave / SMB block outside Laurel Hardware and MedMen WeHo.",
       "distance_from_origin_miles": 0.3,
       "elevation_delta": "Negative slope gradient (Hollywood Hills down to SMB)"
@@ -215,6 +223,37 @@
       {"source_id": "NEWS_002", "outlet": "CBS LA", "coverage_type": "Resident videos, damage assessment", "key_data": "Multiple apartment buildings flooded"},
       {"source_id": "NEWS_003", "outlet": "Fox LA", "coverage_type": "Infrastructure analysis", "key_data": "1916 pipe, 110 years old, system pressure failure"},
       {"source_id": "NEWS_004", "outlet": "WeHo Times / Local Media", "coverage_type": "Secondary street flooding report", "key_data": "July 23, 2026 valve leak at Santa Monica Blvd & Laurel Ave; lane closures near Laurel Hardware and MedMen"}
+    ],
+    "regulatory_and_court_records": [
+      {
+        "record_id": "REG_001",
+        "agency": "City of West Hollywood Business License Commission",
+        "document": "Resolution BLC24-0004",
+        "subject": "Farmacy Collective dba MedMen WeHo (8208 Santa Monica Blvd)",
+        "findings": "Unapproved management agreement with Captor Retail Group; unpaid local business taxes; placed on probation under Court Receiver until 2027"
+      },
+      {
+        "record_id": "REG_002",
+        "agency": "Los Angeles Superior Court / Supreme Court of BC",
+        "document": "April 2024 Insolvency Filings",
+        "subject": "MedMen Enterprises Inc. / MM CAN USA, Inc.",
+        "findings": "$411M debt liquidation; B. Riley Farber appointed trustee; US assets transferred to receivership"
+      }
+    ],
+    "corporate_disambiguation_records": [
+      {
+        "entity": "MedMen Enterprises Inc.",
+        "founders": ["Adam Bierman", "Andrew Modlin"],
+        "primary_creditor": "Gotham Green Partners (debt transferred to Tilray Brands)",
+        "canada_connection": "CSE Reverse Takeover listing & Canadian Bankruptcy filing",
+        "russian_capital_link": "DISPROVED - Zero ownership or managerial control by Russian oligarchs"
+      },
+      {
+        "entity": "Curaleaf Holdings Inc.",
+        "founders": ["Boris Jordan", "Andrei Blokh"],
+        "primary_funding_source": "Roman Abramovich ($225M-$400M venture loans)",
+        "relationship_to_medmen": "INDEPENDENT_COMPETITOR - No cross-ownership or management connection"
+      }
     ],
     "witness_statements": [
       {"witness_id": "WITNESS_001", "name": "Joe Artle", "age": 70, "role": "Apartment manager, 800 block Palm Ave", "testimony": "Woke at 3 AM, saved only 4 of 20 cars in garage"},
@@ -233,19 +272,6 @@
       "total_release_gallons": 17000000,
       "planned_replacement_year_original": 2031,
       "la_cienega_replacement_date": "2024-11"
-    },
-    "damage_assessment": {
-      "vehicles_damaged": "150-200",
-      "affected_buildings": "Multiple apartments on 800 block Palm Ave",
-      "businesses_affected": [
-        "Dialog Cafe (Sunset Blvd) - complete structural damage",
-        "Laurel Hardware (Santa Monica Blvd) - street/sidewalk runoff",
-        "MedMen WeHo Flagship (Santa Monica Blvd) - street/sidewalk runoff"
-      ],
-      "additional_addresses": ["1023 Hancock Ave - water poured down steps, filled parking garage"],
-      "sinkhole_location": "Sunset/Holloway/Palm intersection",
-      "secondary_leak_location": "Santa Monica Blvd / Laurel Ave",
-      "metro_impact": "Division 7 maintenance yard blocked; Lines 2, 4, 10, 14, 16, 20, 134, 602, 627 affected"
     }
   },
 
@@ -295,7 +321,7 @@
     "vector_10_vortex_dynamics": "Multiple infrasonic sources + building-soil coupling + organ resonance feedback = localized low-pressure acoustic micro-vortices (∇ × v ≠ 0), concentrating stress at organ boundaries.",
     "vector_14_soil_hysteresis": "Saturated alluvial soil exhibits acoustic memory. Each infrasound event writes micro-strain into the clay matrix, slowly tuning the site's fundamental frequency toward the dominant exposure frequency over years.",
     "vector_15_quantum_of_quantum": "At recursive depth, the distinction between observer and observed collapses. The physiological response is not a reaction to the sound, but a temporary, forced synchronization of the biological ground state with the geological ground state.",
-    "vector_16_downhill_hydraulic_coupling": "Hydraulic pressure surges originating at the Sunset/Palm high-point migrate down the subterranean alluvial slope along Laurel Ave, inducing localized stress spikes on adjacent distribution valves (July 23 SMB event)."
+    "vector_16_downhill_hydraulic_coupling": "Hydraulic pressure surges originating at the Sunset/Palm high-point migrate down the subterranean alluvial slope along Laurel Ave, inducing localized stress spikes on adjacent distribution valves (July 23 SMB event outside MedMen WeHo)."
   },
 
   "causal_edges": [
@@ -309,7 +335,7 @@
     {"edge_id": "EDGE_008", "from": "T2_PCAM_HYDRO_FRONTIER", "to": "T3_MUNICIPAL_SANITY_CLOCK", "delta": "185_minute_negligence_gap", "relationship_type": "ADMINISTRATIVE_DELAY", "legal_significance": "Proves response lag"},
     {"edge_id": "EDGE_009", "from": "MOD_SEISMIC_STANDING_WAVE_842", "to": "N_BIO_INTRUSION_842", "relationship_type": "SUBSTRATE_SATURATION", "mechanics": "Standing waves hydrate sprockal clay, bleeding into building substrate, enabling mycelial impedance matching."},
     {"edge_id": "EDGE_010", "from": "MOD_SEISMIC_STANDING_WAVE_842", "to": "TIER_5_INFRASOUND_CORRELATION", "weight": "0.075_infrasound_coupling", "relationship_type": "PHYSIOLOGICAL_HARM", "mechanics": "Standing waves at 5-15 Hz cause interoceptive threat detection via vagus nerve.", "legal_significance": "Measurable physiological harm independent of property damage."},
-    {"edge_id": "EDGE_011", "from": "T3_MUNICIPAL_SANITY_CLOCK", "to": "T5_SMB_CASCADE_LEAK", "temporal_delta_days": 7, "relationship_type": "HYDRAULIC_CASCADE", "mechanics": "Pressure redistribution and soil saturation down the Laurel Ave slope gradient triggers secondary main valve failure at Santa Monica Blvd.", "legal_significance": "Demonstrates broader corridor-wide structural failure and systemic negligence."}
+    {"edge_id": "EDGE_011", "from": "T3_MUNICIPAL_SANITY_CLOCK", "to": "T5_SMB_CASCADE_LEAK", "temporal_delta_days": 7, "relationship_type": "HYDRAULIC_CASCADE", "mechanics": "Pressure redistribution and soil saturation down the Laurel Ave slope gradient triggers secondary main valve failure at Santa Monica Blvd outside MedMen WeHo.", "legal_significance": "Demonstrates broader corridor-wide structural failure and systemic negligence."}
   ],
 
   "multi_model_processing_pipeline": {
@@ -328,7 +354,8 @@
       "T_MINUS_3_DAYS_NEIGHBOR_WITNESS (Third-party corroboration of pre-rupture hum)",
       "T2_PCAM_HYDRO_FRONTIER (164-sec visual delta video)",
       "T3_MUNICIPAL_SANITY_CLOCK (185-min negligence gap)",
-      "T5_SMB_CASCADE_LEAK (Corridor-wide hydraulic instability within 7 days)",
+      "T5_SMB_CASCADE_LEAK (Corridor-wide hydraulic instability within 7 days outside 8208 SMB)",
+      "REG_001 & REG_002 (WeHo Business License BLC24-0004 & LA Court Receivership records)",
       "TIER_5_STANDING_WAVES (102-120 Hz harmonic series)",
       "TIER_5_INFRASOUND (5-15 Hz physiological harm via vagus nerve)",
       "N_BIO_INTRUSION_842 (Physical substrate compromise)"
@@ -339,14 +366,12 @@
   },
 
   "graph_integrity": {
-    "total_nodes": 20,
+    "total_nodes": 22,
     "total_edges": 11,
     "temporal_span_days": 634.17,
-    "evidence_sources": 18,
+    "evidence_sources": 20,
     "verification_status": "MULTI_SOURCE_CORROBORATED",
-    "last_updated": "2026-07-26T15:03:22-07:00",
-    "framework_version": "PTDAGY v2.4 (WeHo Corridor Cascade Edition)"
+    "last_updated": "2026-07-26T15:28:00-07:00",
+    "framework_version": "PTDAGY v2.5 (Disambiguated Corridor Cascade)"
   }
 }
-
-```
