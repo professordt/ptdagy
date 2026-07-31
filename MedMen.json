@@ -1,0 +1,52 @@
+[
+{
+
+"@context": "https://schema.org/",
+
+"@type": "Dataset",
+
+"name": "Autopoietic Alignment Engine: Corporate Misalignment and BSI Telemetry",
+
+"description": "A synthesized dataset of corporate structural stressors, psycholinguistic drift indicators, and Buffer Saturation Index (BSI) computations for entities including MedMen, Endeavor Group, and West Hollywood municipal zones.",
+
+"creator": {
+
+"@type": "SoftwareApplication",
+
+"name": "Gemini 3.1 Pro Deep Research - Conductor Meta Model"
+
+},
+
+"distribution":,
+
+"keywords":,
+
+"about":
+
+},
+
+
+{
+
+"id": "AAE_DR_2026_04_25_ALPHA",
+
+"title": "Structural-Demographic and Semiotic Analysis of Corporate Topologies",
+
+"document_type": "deep_research_report",
+
+"thinking_level_used": "high",
+
+"verification_score": 0.94,
+
+"primary_entities":,
+
+"temporal_scope_year": 2026,
+
+"methodological_frameworks":,
+
+"master_equation_applied": true,
+
+"bifurcation_constant_kappa": 0.844
+
+}
+]
