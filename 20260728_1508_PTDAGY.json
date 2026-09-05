@@ -422,7 +422,7 @@
     "temporal_span_days": 634.17,
     "evidence_sources": 21,
     "verification_status": "MULTI_SOURCE_CORROBORATED",
-    "last_updated": "2026-09-04T21:00:00-07:00",
+    "last_updated": "2026-09-05T00:00:00-07:00",
     "framework_version": "PTDAGY v2.5 (Disambiguated Corridor Cascade + RF Telemetry)",
     "rf_telemetry_report": "docs/reports/july16_2026_rf_telemetry_analysis.md"
   }
